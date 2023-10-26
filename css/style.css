@@ -5,13 +5,16 @@
 }
 
 header {
-    background-color: red;
     height: 80px;
     text-align: end;
     display: flex;
     justify-content: end;
     align-items: end;
     padding-right: 20px;
+    position: fixed;
+    z-index: 1;
+    width: auto;
+    padding-left: 1600px;
 }
 
 body {
