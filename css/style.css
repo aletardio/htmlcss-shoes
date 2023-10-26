@@ -40,8 +40,7 @@ a {
 }
 
 
-#superga {
-    padding-bottom: 200px;
+#superga, #tommy, #allstar {
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,28 +50,13 @@ a {
     transform: translate(-50%,-50%);
 }
 
-#tommy {
+.padding-bottom-200 {
     padding-bottom: 200px;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 
-#allstar {
+.padding-bottom-100 {
     padding-bottom: 100px;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
-
 
 .bg-red {
     background-color: red;
